@@ -1,0 +1,126 @@
+@import "fonts.css";
+
+body, html {
+    font-family: 'Raleway';
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    font-family: raleway, helvetica neue, Helvetica, Arial, sans-serif;
+    color: grey;
+    background-color: white;
+    align-items: center;
+    display: flex;
+   }
+.label {
+    float: left;
+    padding-left: 30px;
+    padding-left: 10%;
+    padding-right: 15%;
+    font-size: 25px;
+}
+.mainnav {
+    float: left;
+    justify-content: space-around;
+    position: relative; 
+}
+.mainnav a {
+    padding-left: 30px; 
+    text-decoration: none;
+    color: black;
+    font-size: .75em;
+    color: rgb(51, 50, 50); 
+}
+.mainnav i {
+color:#3a52bf;
+}
+.hover {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: #3a52bf;
+    left: 530px;
+    background: white;
+}
+.wrapper {
+    display: none;
+        position: absolute;
+        left: -250px;
+        box-shadow:  0 0 15px rgba(145, 141, 141, 0.5);
+         margin-top: 5px;
+         background: white;
+}
+.wrapper-search {
+    width: 280px;
+    height: 50px;
+    padding: 10px; 
+    display: flex;
+   align-items: center;
+}
+a:hover .wrapper {
+    display: table;
+}
+.search {
+    padding: 18px;
+    font-size: 15px;
+    width: 150px;
+    border: none;
+    background-color: rgb(238, 235, 235);
+}
+button {
+    border: none;
+    padding: 13px;
+    margin: 10px;
+    height: 53px;
+    background-color:#3a52bf;
+    color: white;
+
+}
+.main {
+    width: 100%;
+    height: 100vh;
+}
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg"); 
+} 
+.text {
+    color: white;
+    text-align: center;
+}
+.main-img h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+.main-img button {
+    width: 200px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+.read-more {
+    background-color: #745cf9;
+}
+.read-more:hover {
+    background-color: #6247f8;
+    opacity: .8;
+}
+.download-now {
+    background-color: transparent;
+    border: 2px solid white;
+}
+.download-now:hover {
+    background-color: white;
+    color: black;
+}
